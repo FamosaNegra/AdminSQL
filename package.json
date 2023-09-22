@@ -1,0 +1,17 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@adminjs/express": "^6.0.0",
+    "@adminjs/import-export": "^3.0.0",
+    "@adminjs/sql": "^2.2.1",
+    "adminjs": "^7.2.1",
+    "bcrypt": "^5.1.1",
+    "connect-pg-simple": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "pg-promise": "^11.5.4"
+  }
+}
