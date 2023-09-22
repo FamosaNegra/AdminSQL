@@ -50,7 +50,7 @@ const start = async () => {
   const ConnectSession = Connect(session)
   const sessionStore = new ConnectSession({
     conObject: {
-      connectionString: 'postgres://admin:admin@localhost:5432/metrocasa',
+      connectionString: 'postgres://admin:admin@192.168.4.243:5432/metrocasa',
     },
     tableName: 'session',
     createTableIfMissing: true,
