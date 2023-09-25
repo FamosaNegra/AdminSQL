@@ -13,7 +13,6 @@ import {
   ComponentLoader
 } from 'adminjs';
 
-
 const PORT = 3000
 const DEFAULT_ADMIN = [
   {
@@ -75,7 +74,6 @@ const start = async () => {
     rootPath: '/',
     componentLoader,
 
-
     resources: [{
         resource: db.table('users'),
         options: {
@@ -114,10 +112,6 @@ const start = async () => {
           label: 'Vendas', // Defina o rótulo personalizado que deseja exibir na navegação
         },
 
-      },
-      {
-        resource: db.table('corretores'),
-        options: {},
       },
       {
         resource: db.table('tbleadssi'),
